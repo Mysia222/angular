@@ -1,0 +1,38 @@
+.form-card {
+  margin: 0 auto;
+}
+
+.add-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 25px;
+    margin: 20px;
+    width: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color {
+        margin-right: 10px;
+    }
+    color: var(--mat-card-subtitle-text-color);
+    font-family: var(--mat-card-subtitle-text-font);
+    line-height: var(--mat-card-subtitle-text-line-height);
+    font-size: var(--mat-card-subtitle-text-size);
+    letter-spacing: var(--mat-card-subtitle-text-tracking);
+    font-weight: var(--mat-card-subtitle-text-weight);
+}
+
+.upload-button input[type="file"] {
+  display: none;
+}
+
+
+img.recipe-preview-image {
+    width: 27rem;
+}
