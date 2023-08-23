@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-button (click)="moveHome()">
+      <h1 style="margin: 0px">Cook</h1>
+    </button>
+    <span class="spacer"></span>
+    <div style="display: flex; align-items: center">
+      <button mat-icon-button (click)="addRecipe()">
+        <mat-icon>add</mat-icon>
+      </button>
+      <button mat-flat-button color="primary" (click)="signUp()">
+        Sign Up
+      </button>
+      <button mat-flat-button color="primary" (click)="logIn()">Log In</button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

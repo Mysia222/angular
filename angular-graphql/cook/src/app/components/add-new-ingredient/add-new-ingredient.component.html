@@ -1,0 +1,19 @@
+<mat-dialog-content
+  [formGroup]="form"
+  style="display: flex; flex-direction: column"
+>
+  <h2 mat-dialog-title>Add ingredient</h2>
+  <mat-form-field>
+    <mat-label>Title</mat-label>
+    <input matInput placeholder="Title" formControlName="title" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <input matInput placeholder="Description" formControlName="description" />
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-flat-button (click)="close()">Close</button>
+  <button mat-flat-button color="primary" (click)="save()">Add</button>
+</mat-dialog-actions>
